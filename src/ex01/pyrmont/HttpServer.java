@@ -8,6 +8,10 @@ import java.io.OutputStream;
 import java.io.IOException;
 import java.io.File;
 
+/**
+ *  只能用curl命令，不能用浏览器。因为程序不完善，浏览器的话容易把server搞挂
+ *  curl localhost:8080/index.html
+ */
 public class HttpServer {
 
   /** WEB_ROOT is the directory where our HTML and other files reside.

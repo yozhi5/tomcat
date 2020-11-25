@@ -10,6 +10,9 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletInputStream;
 import javax.servlet.ServletRequest;
 
+/**
+ * facade 模式可以把对象的细节封装起来，防止误操作。
+ */
 public class RequestFacade implements ServletRequest {
 
   private ServletRequest request = null;
